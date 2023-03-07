@@ -69,15 +69,6 @@
                             break;
                         case 'search':
                             require_once('modules/search/search.php');
-                        break;
-                        case 'success':
-                            require_once('modules/cart/success.php');
-                            break;
-                        case 'order':
-                            require_once('modules/products/order.php');
-                            break;
-                        case 'delete_cart':
-                            require_once('modules/products/delete_cart.php');
                             break;
                     }
                 }else{
@@ -96,18 +87,6 @@
         </div>
     </div>
     <!-- top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8965</button>
-    <div id="footer-top">
-        <div class="container">
-            <div class="row">
-                <?php
-          //      include_once('modules/logo/logo_footer.php');
-                include_once('modules/address/address.php');
-                include_once('modules/service/service.php');
-                ?>
-            </div>
-        </div>
-    </div>
    
 <!-- pop up advertisement div -->
     <div id="<?php if(!isset($_SESSION['deactive'])){echo 'popup_this';} else {echo 'deactive';}?>">

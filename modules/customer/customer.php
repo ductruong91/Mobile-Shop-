@@ -37,12 +37,7 @@
     <div class="row">
         <div class="by-now col-lg-6 col-md-6 col-sm-12">
             <a onclick="buyNow()">
-                <b>Mua ngay</b>
-            </a>
-        </div>
-        <div class="by-now col-lg-6 col-md-6 col-sm-12">
-            <a href="#">
-                <b>Trả góp Online</b>
+                <b>Đặt hàng ngay</b>
             </a>
         </div>
     </div>
