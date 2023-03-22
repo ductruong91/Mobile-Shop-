@@ -58,10 +58,10 @@
                                 <td><?php echo $row['ord_date']?></td>
                                 <td><span class="<?php echo $lable ?>"><?php echo $status ?></span></td>
                                 <td class="form-group">
-                                    <a href="index.php?page_layout=complete_order&id=<?php echo $row['ord_id'] ?>"  class="btn btn-primary"><i
-                                            class="glyphicon glyphicon-ok"></i></a>
-                                    <a href="index.php?page_layout=detail_order&id=<?php echo $row['ord_id'] ?>" class="btn btn-danger"><i
-                                            class="glyphicon glyphicon-list-alt"></i></a>
+                                    <a href="index.php?page_layout=complete_order&id=<?php echo $row['ord_id'] ?>"
+                                        class="btn btn-primary"><i class="glyphicon glyphicon-ok"></i></a>
+                                    <a href="index.php?page_layout=detail_order&id=<?php echo $row['ord_id'] ?>"
+                                        class="btn btn-danger"><i class="glyphicon glyphicon-list-alt"></i></a>
                                 </td>
                             </tr>
                             <?php } ?>
@@ -80,6 +80,7 @@
                     </nav>
                 </div>
             </div>
+
         </div>
     </div>
     <!--/.row-->

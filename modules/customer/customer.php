@@ -12,7 +12,6 @@
                 echo "Error: {$e}";
             }
  }
-
 ?>
 <div id="customer">
     <form id="frm" method="post">
@@ -44,7 +43,7 @@
 </div>
 <!--	End Customer Info	-->
 <script>
-    function buyNow(){
-        document.getElementById('frm').submit();
-    }
+function buyNow() {
+    document.getElementById('frm').submit();
+}
 </script>
